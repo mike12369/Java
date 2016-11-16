@@ -7,9 +7,9 @@ int i = 20;
 
 void draw() {
   if (mousePressed) {
-    fill(30);
+    fill(0 + i);
   } else {
-    fill(100);
+    fill(255 - i);
   }
   ellipse(mouseX, mouseY, 5, 20);
 }
