@@ -12,4 +12,5 @@ void draw() {
     fill(255 - i);
   }
   ellipse(mouseX, mouseY, 5, 20);
+  i++;
 }
