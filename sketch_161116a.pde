@@ -12,6 +12,4 @@ void draw() {
     fill(100);
   }
   ellipse(mouseX, mouseY, 5, 20);
-  i++;
-  print("i is " + i);
 }
