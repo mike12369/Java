@@ -1,5 +1,6 @@
 void setup() {
   size(480, 480);
+  point(240, 60);
 }
 int i = 20;
 void draw() {
@@ -10,4 +11,5 @@ void draw() {
   }
   ellipse(mouseX, mouseY, 5 + i, 20 + i);
   i++;
+  print("i is " + i);
 }
