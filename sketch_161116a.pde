@@ -9,5 +9,4 @@ void draw() {
     fill(255);
   }
   ellipse(mouseX, mouseY, 5 + i, 1);
-  i++;
 }
