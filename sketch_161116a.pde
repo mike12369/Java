@@ -2,7 +2,9 @@ void setup() {
   size(480, 480);
   point(240, 60);
 }
+
 int i = 20;
+
 void draw() {
   if (mousePressed) {
     fill(30);
