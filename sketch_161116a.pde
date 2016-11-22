@@ -1,5 +1,5 @@
 void setup() {
-  size(700, 700, P3D);
+  size(900, 900, P3D);
   noStroke();
   point(240, 60);
 }
@@ -8,7 +8,7 @@ int i = 20;
 
 void draw() {
   noStroke(); 
-  background(0); 
+  background(40); 
   float dirY = (mouseY / float(height) - 0.5) * 2;
   float dirX = (mouseX / float(width) - 0.5) * 2;
   directionalLight(204, 204, 204, -dirX, -dirY, -1); 

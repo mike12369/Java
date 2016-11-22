@@ -1,0 +1,143 @@
+[33mcommit 4d9a9c25cb015c4ab26c7cbc77122d3e2998ab50[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Tue Nov 22 14:30:16 2016 +0000
+
+    Changed canvas size to allow 3rd sphere to be viewed
+
+[33mcommit 48d72589d695ef168f14c815c9dd90f5ecd4fc53[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Tue Nov 22 14:28:24 2016 +0000
+
+    Added another sphere to file
+
+[33mcommit a240ef853c54988bf577fbd429d0397ec1424d91[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Tue Nov 22 14:25:44 2016 +0000
+
+    Added example file to sketch
+    
+    I expect it to create two spheres with direction light
+
+[33mcommit ed4d1744c8727226963a01e41f9d29d3543da40d[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:53:04 2016 +0000
+
+    Added i++
+    
+    I expect this to change the colours
+
+[33mcommit 1132b68e4e7ea13a95b05d901d1706e6234c2396[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:52:16 2016 +0000
+
+    Changed the value of the fills
+    
+    I expect this to change the colours
+
+[33mcommit 9600993f45577772dac5ce41fe88592c138cd9ee[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:50:21 2016 +0000
+
+    Removed print and i++
+
+[33mcommit 273822b2e7bb7cb1de964c86d4bd7be33113ce50[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:48:09 2016 +0000
+
+    Removed i from 4th argument
+    
+    I expect the ellipse will not get wider on the yaxis
+
+[33mcommit 8d5cb272181bd3c63b1e2f8ea9a9e8a0d70f9448[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:46:49 2016 +0000
+
+    Spaced out code
+
+[33mcommit 2a6bac4a06990491d85fb5cd0902b7d1f307f4d6[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:45:46 2016 +0000
+
+    Removed i from 3rd argument
+    
+    I expect the ellipse will not get wider on the xaxis
+
+[33mcommit a50aea41cd24634480b9af25684583cefc2cc77d[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:43:30 2016 +0000
+
+    Added print statement at the end of the draw method
+    
+    I will use this to look at how i is changing
+
+[33mcommit d33248286464bd11321b6da6b6737c3da5ae5cbd[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:37:10 2016 +0000
+
+    Changed the variable of mouseY from 20 to 20 + i
+
+[33mcommit 1900b98f4d41079357eaee4aa44f3e852d9eb986[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:36:13 2016 +0000
+
+    Readded i++
+
+[33mcommit 0341e53dbc0bfa992480b86f6a354381d47f37ef[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:34:54 2016 +0000
+
+    Changed value of first fill to 30
+
+[33mcommit fff6dd5a67106e4f6925c9cea84b496c56b9ca8d[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:33:56 2016 +0000
+
+    Changed value of second fill to 100
+
+[33mcommit 1b4257ffe21f46eb575b293e87e76454b8d67c3c[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:31:01 2016 +0000
+
+    Removed i++
+
+[33mcommit 10754ceb54cbb756a1ae2a9c886ed9604790373d[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:27:35 2016 +0000
+
+    Changed the size of mouseX and mouseY variables
+
+[33mcommit b51e5e7667fb1530f14ea84367c0ffe449428c0e[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:23:14 2016 +0000
+
+    Changed the size of mouseX and mouseY variables
+
+[33mcommit 79addb603e1eb11b95fb2a47b8693ba82bae328b[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:22:16 2016 +0000
+
+    Changed canvas size
+
+[33mcommit 7a9e34dce23a867829afe2d882c65ee1793ce433[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:21:02 2016 +0000
+
+    Created variable i, set it to 1, added i to the variable mouseX and ++ i
+
+[33mcommit 44456c96323d2ec31350406d0da3db4ef6f07e58[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:15:22 2016 +0000
+
+    Created variable int and set it to 1
+
+[33mcommit 956ebc80bb47aa9e29fb7088ead4ef8ebf8ec924[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:13:03 2016 +0000
+
+    Changed mouseX variable in ellipse to 100
+
+[33mcommit 44653114de01357a2f43b61083e55a3afbf56c96[m
+Author: Michael Collins <t00192959@365s.ittralee.ie>
+Date:   Wed Nov 16 15:10:13 2016 +0000
+
+    Initial commit
