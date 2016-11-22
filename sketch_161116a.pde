@@ -1,7 +1,7 @@
 PFont f;
 
 void setup() {
-  size(900, 900, P3D);
+  size(2000, 2000, P3D);
   noStroke();
   point(240, 60);
   background(0);
@@ -39,7 +39,11 @@ void draw() {
           float dirY = (mouseY / float(height) - 0.5) * 2;
           float dirX = (mouseX / float(width) - 0.5) * 2;
           directionalLight(60, 70, 90, -dirX, -dirY, -1); 
-          translate(300, height/2, 0); 
+          translate(200, height/2, 0); 
+          sphere(80); 
+          translate(250, 0, 0); 
+          sphere(100);
+          translate(300, 0, 0); 
           sphere(120);
           translate(250, 0, 0); 
           sphere(100); 
