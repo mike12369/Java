@@ -1,16 +1,19 @@
 void setup() {
-  size(480, 480);
+  size(480, 480, P3D);
+  noStroke();
   point(240, 60);
 }
 
 int i = 20;
 
 void draw() {
-  if (mousePressed) {
-    fill(0 + i);
-  } else {
-    fill(255 - i);
-  }
-  ellipse(mouseX, mouseY, 5, 20);
-  i++;
+  noStroke(); 
+  background(0); 
+  float dirY = (mouseY / float(height) - 0.5) * 2;
+  float dirX = (mouseX / float(width) - 0.5) * 2;
+  directionalLight(204, 204, 204, -dirX, -dirY, -1); 
+  translate(width/2 - 100, height/2, 0); 
+  sphere(80); 
+  translate(200, 0, 0); 
+  sphere(80); 
 }
