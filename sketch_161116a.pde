@@ -1,5 +1,5 @@
 void setup() {
-  size(480, 480, P3D);
+  size(700, 700, P3D);
   noStroke();
   point(240, 60);
 }
