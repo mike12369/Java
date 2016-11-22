@@ -11,9 +11,9 @@ void draw() {
   float dirX = (mouseX / float(width) - 0.5) * 2;
   directionalLight(50, 70, 90, -dirX, -dirY, -1); 
   translate(width/2 - 100, height/2, 0); 
-  sphere(80);
+  sphere(120);
   translate(200, 0, 0); 
-  sphere(80); 
+  sphere(100); 
   translate(200, 0, 0); 
   sphere(80); 
   
