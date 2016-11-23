@@ -9,7 +9,7 @@ int ydirection = 1;
 void setup() {
   size(640, 360, P3D);
   noStroke();
-  fill(204);
+  fill(203);
   frameRate(30);
   ellipseMode(RADIUS);
   xpos = width/2;
