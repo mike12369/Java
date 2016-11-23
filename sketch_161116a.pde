@@ -58,7 +58,7 @@ void draw() {
               ydirection *= -1;
             }
           
-            sphere(xpos, ypos, rad, rad);
+            ellipse(xpos, ypos, rad, rad);
             noStroke(); 
           float dirY = (mouseY / float(height) - 0.5) * 2;
           float dirX = (mouseX / float(width) - 0.5) * 2;
@@ -75,4 +75,3 @@ void draw() {
           sphere(80);
           }
                   }
-}
