@@ -1,8 +1,8 @@
 int rad = 60;        
 float xpos, ypos;     
 
-float xspeed = 2.8;  
-float yspeed = 2.2;  
+float xspeed = 5;  
+float yspeed = 5;  
 int xdirection = 1;  
 int ydirection = 1;  
 
@@ -30,7 +30,7 @@ void draw() {
   }
 
 else {
-  background(102);
+  background(0);
   
   xpos = xpos + ( xspeed * xdirection );
   ypos = ypos + ( yspeed * ydirection );
