@@ -1,10 +1,23 @@
+int rad = 60;        
+float xpos, ypos;     
+
+float xspeed = 2.8;  
+float yspeed = 2.2;  
+int xdirection = 1;  
+int ydirection = 1;  
+
 void setup() {
   size(640, 360, P3D);
   noStroke();
   fill(204);
+  frameRate(30);
+  ellipseMode(RADIUS);
+  xpos = width/2;
+  ypos = height/2;
 }
 
 void draw() {
+  if(mousePressed){
   noStroke(); 
   background(0); 
   float dirY = (mouseY / float(height) - 0.5) * 2;
@@ -14,4 +27,21 @@ void draw() {
   sphere(80); 
   translate(200, 0, 0); 
   sphere(80); 
+  }
+
+else {
+  background(102);
+  
+  xpos = xpos + ( xspeed * xdirection );
+  ypos = ypos + ( yspeed * ydirection );
+  
+  if (xpos > width-rad || xpos < rad) {
+    xdirection *= -1;
+  }
+  if (ypos > height-rad || ypos < rad) {
+    ydirection *= -1;
+  }
+
+  ellipse(xpos, ypos, rad, rad);
+}
 }
